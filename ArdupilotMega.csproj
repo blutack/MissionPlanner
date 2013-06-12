@@ -214,9 +214,6 @@
     <Reference Include="Core">
       <HintPath>Lib\Core.dll</HintPath>
     </Reference>
-    <Reference Include="System.Reactive">
-      <HintPath>Lib\System.Reactive.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Dynamic">
       <HintPath>Lib\Microsoft.Dynamic.dll</HintPath>
     </Reference>
@@ -231,6 +228,9 @@
     </Reference>
     <Reference Include="Microsoft.Scripting.ExtensionAttribute">
       <HintPath>Lib\Microsoft.Scripting.ExtensionAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Lib\System.Reactive.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -630,7 +630,7 @@ namespace ArdupilotMega.GCSViews
                     Application.DoEvents();
                     Console.WriteLine("Found board type {0} boardrev {1} bl rev {2} fwmax {3} on {4}", up.board_type, up.board_rev, up.bl_rev, up.fw_maxsize, port);
 
-                    up.currentChecksum(fw);
+                    //up.currentChecksum(fw);
                 }
                 catch (Exception)
                 {
@@ -642,8 +642,8 @@ namespace ArdupilotMega.GCSViews
 
                 try
                 {
-                    up.ProgressEvent += new Uploader.ProgressEventHandler(up_ProgressEvent);
-                    up.LogEvent += new Uploader.LogEventHandler(up_LogEvent);
+                    //up.ProgressEvent += new Uploader.ProgressEventHandler(up_ProgressEvent);
+                    //up.LogEvent += new Uploader.LogEventHandler(up_LogEvent);
 
                     progress.Value = 0;
                     Application.DoEvents();
