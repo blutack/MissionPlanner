@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExtLibs/aws-sdk-net/AWSSDK/Amazon.CloudFront/AmazonCloudFrontUrlSigner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GCSViews/Firmware.cs">
     <Files>
       <File FileName="GCSViews/ConfigurationView/ConfigAteryxSensors.resx" Line="195" Column="85" />
       <File FileName="GCSViews/Simple.resx" Line="453" Column="93" />
@@ -19,24 +19,35 @@
       <File FileName="touch.cs" Line="2" Column="1" />
       <File FileName="ResEdit.cs" Line="10" Column="14" />
       <File FileName="Arduino/ArduinoSTK.cs" Line="6" Column="7" />
-      <File FileName="Controls/ConnectionStats.cs" Line="4" Column="14" />
-      <File FileName="ExtLibs/aws-sdk-net/AWSSDK/Amazon.S3/AmazonS3Client.cs" Line="1" Column="1" />
+      <File FileName="Controls/ConnectionStats.cs" Line="145" Column="3" />
+      <File FileName="ExtLibs/aws-sdk-net/AWSSDK/Amazon.S3/AmazonS3Client.cs" Line="7108" Column="48" />
       <File FileName="ExtLibs/aws-sdk-net/AWSSDK/Amazon.CloudFront/AmazonCloudFrontUrlSigner.cs" Line="325" Column="45" />
+      <File FileName="JoystickSetup.cs" Line="9" Column="17" />
+      <File FileName="Log/Log.cs" Line="15" Column="7" />
+      <File FileName="ExtLibs/mono-reactive/System.Reactive/System.Reactive/Internal_DefaultObserver.cs" Line="6" Column="45" />
+      <File FileName="Utilities/S3Uploader.cs" Line="5" Column="7" />
+      <File FileName="OSDVideo.cs" Line="26" Column="9" />
+      <File FileName="Script.cs" Line="13" Column="36" />
+      <File FileName="Swarm/FormationControl.cs" Line="1" Column="1" />
+      <File FileName="GCSViews/Firmware.cs" Line="635" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="ArdupilotMega" expanded="True">
-            <Node name="References" expanded="True" />
+            <Node name="References" expanded="True" selected="True" />
             <Node name="Arduino" expanded="True" />
             <Node name="Controls" expanded="True" />
+            <Node name="GCSViews" expanded="True" />
+            <Node name="Log" expanded="True" />
+            <Node name="Swarm" expanded="True" />
+            <Node name="Utilities" expanded="True" />
           </Node>
-          <Node name="AWSSDKSrc" expanded="True" selected="True">
+          <Node name="AWSSDKSrc" expanded="True">
             <Node name="References" expanded="True" />
             <Node name="Amazon.CloudFront" expanded="True" />
             <Node name="Amazon.S3" expanded="True" />
           </Node>
-          <Node name="System.Reactive" expanded="True" />
         </State>
       </Pad>
     </Pads>

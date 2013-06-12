@@ -32,6 +32,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -212,6 +213,24 @@
     </Reference>
     <Reference Include="Core">
       <HintPath>Lib\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Lib\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>Lib\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Core">
+      <HintPath>Lib\Microsoft.Scripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Debugging">
+      <HintPath>Lib\Microsoft.Scripting.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>Lib\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.ExtensionAttribute">
+      <HintPath>Lib\Microsoft.Scripting.ExtensionAttribute.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1254,11 +1273,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ExtLibs\AviFile\AviFile.csproj">
-      <Project>{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}</Project>
-      <Name>AviFile</Name>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </ProjectReference>
     <ProjectReference Include="ExtLibs\BaseClasses\BaseClasses.csproj">
       <Project>{2A8E8AF5-74E7-49DB-A42E-9360FA7A6CC4}</Project>
       <Name>BaseClasses</Name>
@@ -1297,10 +1311,6 @@
       <Project>{2541686B-1673-43BF-AF89-3163945DB009}</Project>
       <Name>ZedGraph</Name>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-    </ProjectReference>
-    <ProjectReference Include="ExtLibs\mono-reactive\System.Reactive\System.Reactive.csproj">
-      <Project>{0D7D238E-9FB4-4923-99EA-53CC34640235}</Project>
-      <Name>System.Reactive</Name>
     </ProjectReference>
     <ProjectReference Include="ExtLibs\aws-sdk-net\AWSSDK\AWSSDKSrc.csproj">
       <Project>{40E91E2D-70F3-463D-9E3E-408AE2A70BA8}</Project>
