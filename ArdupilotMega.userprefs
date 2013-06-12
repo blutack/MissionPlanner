@@ -1,0 +1,48 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExtLibs/aws-sdk-net/AWSSDK/Amazon.CloudFront/AmazonCloudFrontUrlSigner.cs">
+    <Files>
+      <File FileName="GCSViews/ConfigurationView/ConfigAteryxSensors.resx" Line="195" Column="85" />
+      <File FileName="GCSViews/Simple.resx" Line="453" Column="93" />
+      <File FileName="GCSViews/Simple.zh-Hans.resx" Line="4230" Column="93" />
+      <File FileName="GCSViews/Simple.zh-TW.resx" Line="4182" Column="93" />
+      <File FileName="OSDVideo.resx" Line="123" Column="85" />
+      <File FileName="GCSViews/FlightData.zh-TW.resx" Line="4182" Column="93" />
+      <File FileName="GCSViews/FlightPlanner.zh-TW.resx" Line="616" Column="88" />
+      <File FileName="GCSViews/FlightData.zh-Hans.resx" Line="4230" Column="93" />
+      <File FileName="GCSViews/FlightPlanner.zh-Hans.resx" Line="616" Column="88" />
+      <File FileName="GCSViews/FlightData.resx" Line="1911" Column="91" />
+      <File FileName="GCSViews/FlightPlanner.resx" Line="1641" Column="88" />
+      <File FileName="ExtLibs/CsAssortedWidgets/GLFont/Text.cs" Line="38" Column="31" />
+      <File FileName="ExtLibs/GLControl/GLControl.cs" Line="37" Column="14" />
+      <File FileName="ExtLibs/GMap.NET.Core/GMap.NET/GMaps.cs" Line="24" Column="6" />
+      <File FileName="touch.cs" Line="2" Column="1" />
+      <File FileName="ResEdit.cs" Line="10" Column="14" />
+      <File FileName="Arduino/ArduinoSTK.cs" Line="6" Column="7" />
+      <File FileName="Controls/ConnectionStats.cs" Line="4" Column="14" />
+      <File FileName="ExtLibs/aws-sdk-net/AWSSDK/Amazon.S3/AmazonS3Client.cs" Line="1" Column="1" />
+      <File FileName="ExtLibs/aws-sdk-net/AWSSDK/Amazon.CloudFront/AmazonCloudFrontUrlSigner.cs" Line="325" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ArdupilotMega" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Arduino" expanded="True" />
+            <Node name="Controls" expanded="True" />
+          </Node>
+          <Node name="AWSSDKSrc" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+            <Node name="Amazon.CloudFront" expanded="True" />
+            <Node name="Amazon.S3" expanded="True" />
+          </Node>
+          <Node name="System.Reactive" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B8943726-04B0-4477-BFDA-E156A0CD98A4}</ProjectGuid>
@@ -11,8 +11,6 @@
     <RootNamespace>_3DRRadio</RootNamespace>
     <AssemblyName>3DRRadio</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -31,18 +29,21 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
-  <PropertyGroup>
     <ApplicationIcon>3dr.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <OutputPath>bin\Debug\</OutputPath>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <OutputPath>bin\Release\</OutputPath>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
@@ -87,10 +88,6 @@
       <Link>Linked\BackstageView.cs</Link>
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="..\Controls\BackstageView\BackstageView.designer.cs">
-      <Link>Linked\BackstageView.designer.cs</Link>
-      <DependentUpon>BackstageView.cs</DependentUpon>
-    </Compile>
     <Compile Include="..\Controls\BackstageView\BackstageViewButton.cs">
       <Link>Linked\BackstageViewButton.cs</Link>
       <SubType>Component</SubType>
@@ -113,10 +110,6 @@
     <Compile Include="..\Radio\3DRradio.cs">
       <Link>Linked\3DRradio.cs</Link>
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="..\Radio\3DRradio.designer.cs">
-      <Link>Linked\3DRradio.designer.cs</Link>
-      <DependentUpon>3DRradio.cs</DependentUpon>
     </Compile>
     <Compile Include="..\Radio\IHex.cs">
       <Link>Linked\IHex.cs</Link>
@@ -187,6 +180,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="..\Controls\BackstageView\BackstageView.Designer.cs">
+      <DependentUpon>BackstageView.cs</DependentUpon>
+      <Link>Linked\BackstageView.designer.cs</Link>
+    </Compile>
+    <Compile Include="..\Radio\3DRradio.Designer.cs">
+      <DependentUpon>3DRradio.cs</DependentUpon>
+      <Link>Linked\3DRradio.designer.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
